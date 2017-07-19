@@ -33,9 +33,9 @@ class Catalogador(object):
             a.pack(side=LEFT)
 
     def conectaBanco(self):
-        USER = 'postgres'
-        PASSWD = '123'
-        DB = 'teste'
+        USER = 'yourUser'
+        PASSWD = 'yourPass'
+        DB = 'yourDB'
 
         try:
             self.conn = psycopg2.connect(dbname=DB, user=USER, password=PASSWD)
