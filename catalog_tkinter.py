@@ -1,4 +1,5 @@
-# Python com a user interface TKinter
+# Python w/ the user interface TKinter
+# ***the bugs needs fixing***
 
 from tkinter import *
 import psycopg2
@@ -14,10 +15,6 @@ class Catalogador(object):
         # Frame que contem os botoes
         self.frame2 = Frame(i, pady=10, bg=BG)
         self.frame2.pack()
-        # Frame que contem as funçoes
-        #self.frame3 = Frame(i, pady=10, bg=BG)
-        #self.frame3.pack()
-
 
         self.texto = Label(self.frame1, text="AGENDA", bg=BG)
         self.texto.pack()
