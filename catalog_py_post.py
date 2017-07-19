@@ -1,6 +1,6 @@
 # python 3.6 com postgresql
 
-# conecta banco: conn = psycopg2.connect("dbname='teste' user='postgres' password='123'")
+# conecta banco: conn = psycopg2.connect("dbname='yourDB' user='yourUser' password='yourPass'")
 # pega cursor: cur = conn.cursor()
 # executa comando: cur.execute("")
 # salva os dados: conn.commit()
