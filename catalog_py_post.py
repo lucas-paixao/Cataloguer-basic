@@ -51,9 +51,9 @@ def opcaoUsuario():
 
 
 def conectaBanco():
-    USER = 'postgres'
-    PASSWD = '123'
-    DB = 'teste'
+    USER = 'yourUser'
+    PASSWD = 'yourPass'
+    DB = 'yourDB'
 
     try:
         conn = psycopg2.connect(dbname=DB, user=USER, password=PASSWD)
