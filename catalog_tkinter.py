@@ -1,5 +1,5 @@
 # Python w/ the user interface TKinter
-# ***the bugs needs fixing***
+# ***the bugs need fixing***
 
 from tkinter import *
 import psycopg2
